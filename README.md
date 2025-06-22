@@ -9,10 +9,10 @@ This repository contains the workflow used for the **mitochondrial genome assemb
 
 The pipeline includes the following steps:
 
-1. 🧷 **Read alignment** to a reference mitochondrial genome  
-2. 🧬 **Mitochondrial genome assembly**  
-3. 🧠 **Gene annotation**  
-4. 🔍 **Comparative genomic analysis**
+1.  **Read alignment** to a reference mitochondrial genome  
+2.  **Mitochondrial genome assembly**  
+3.  **Gene annotation**  
+4. **Comparative genomic analysis**
 
 
 📁 All commands are organized within this repository.
