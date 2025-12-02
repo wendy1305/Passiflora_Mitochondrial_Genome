@@ -23,4 +23,4 @@ minimap2 -ax  map-ont cpDNA.fasta mapped.fastq | samtools view -Sb > alignment.b
 ```bash
 samtools view -b -f 4 alignment.bam > nomap_cpDNA.bam 
 samtools sort nomap_cpDNA.bam  -o nomap_cpDNA.sorted.bam
-samtools fastq map_reference.sorted.bam  > mapped.fastq
+samtools fastq  nomap_cpDNA.sorted.bam > nomapped.fastq
